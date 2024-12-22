@@ -1,3 +1,7 @@
+
+
+
+
 const { MongoClient } = require('mongodb');
 
 const uri = "mongodb+srv://ryviusyami:Remember11@cluster0.65tpb.mongodb.net/myDatabase?retryWrites=true&w=majority";
@@ -28,9 +32,12 @@ async function run() {
 
 run();
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 8a7147f (Initialize repository and add all files)
 const express = require('express');
 const app = express();
 const port = 3000;
