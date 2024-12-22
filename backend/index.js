@@ -32,12 +32,9 @@ async function run() {
 
 run();
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> 8a7147f (Initialize repository and add all files)
 const express = require('express');
 const app = express();
 const port = 3000;
