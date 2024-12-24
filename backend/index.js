@@ -10,7 +10,11 @@ const uri = "mongodb+srv://ryviusyami:Remember11@cluster0.65tpb.mongodb.net/myDa
 const client = new MongoClient(uri);
 
 // 中间件配置
-app.use(cors());
+app.use(cors({
+    origin: 'https://the-boring-studio.onrender.com', // 替换为你的前端 URL
+    methods: ['GET', 'POST'],
+    allowedHeaders: ['Content-Type']
+  }));
 app.use(express.json());
 
 // 测试服务器是否正常运行
